@@ -1,5 +1,5 @@
 @tool
-extends RefCounted 
+extends Resource
 class_name RMS2D_Material
 
 # @export (Texture) var fill_texture = null setget _set_fill_texture

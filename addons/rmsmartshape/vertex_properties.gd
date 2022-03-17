@@ -1,5 +1,5 @@
 @tool
-extends RefCounted
+extends Resource
 class_name SS2D_VertexProperties
 
 # @export (int) var texture_idx: int # setget set_texture_idx

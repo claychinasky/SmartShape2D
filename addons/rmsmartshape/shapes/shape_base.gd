@@ -57,9 +57,9 @@ var _color_encoding = SS2D_Edge.COLOR_ENCODING.COLOR
 	set(v): set_color_encoding
 
 # @export (Resource) var _points = SS2D_Point_Array.new() setget set_point_array, get_point_array
-var __points : Resource = SS2D_Point_Array.new()
+var __points : Resource = SS2D_Point_Array.new() as Resource
 @export var _points : Resource:
-	get: return __points
+	get: return __points as Resource
 	set(v): set_point_array
 
 # Dictionary of (Array of 2 keys) to (SS2D_Material_Edge_Metadata)

@@ -9,12 +9,12 @@
 config_version=5
 
 _global_script_classes=[{
-"base": "RefCounted",
+"base": "Resource",
 "class": &"RMS2D_Material",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/RMSmartShapeMaterial.gd"
 }, {
-"base": "RefCounted",
+"base": "Reference",
 "class": &"RMS2D_VertexProperties",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/LEGACY_vertex_properties.gd"
@@ -49,17 +49,17 @@ _global_script_classes=[{
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/shapes/index_map.gd"
 }, {
-"base": "RefCounted",
+"base": "Resource",
 "class": &"SS2D_Material_Edge",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/materials/edge_material.gd"
 }, {
-"base": "RefCounted",
+"base": "Resource",
 "class": &"SS2D_Material_Edge_Metadata",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/materials/edge_material_metadata.gd"
 }, {
-"base": "RefCounted",
+"base": "Resource",
 "class": &"SS2D_Material_Shape",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/materials/shape_material.gd"
@@ -69,7 +69,7 @@ _global_script_classes=[{
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/shapes/mesh.gd"
 }, {
-"base": "RefCounted",
+"base": "Resource",
 "class": &"SS2D_NormalRange",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/normal_range.gd"
@@ -84,7 +84,7 @@ _global_script_classes=[{
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/editors/NormalRangeEditor/NormalRangeEditorProperty.gd"
 }, {
-"base": "Resource",
+"base": "RefCounted",
 "class": &"SS2D_Point",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/shapes/point.gd"
@@ -139,7 +139,7 @@ _global_script_classes=[{
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/strings.gd"
 }, {
-"base": "RefCounted",
+"base": "Resource",
 "class": &"SS2D_VertexProperties",
 "language": &"GDScript",
 "path": "res://addons/rmsmartshape/vertex_properties.gd"

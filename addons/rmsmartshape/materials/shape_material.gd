@@ -1,5 +1,5 @@
 @tool
-extends RefCounted
+extends Resource
 class_name SS2D_Material_Shape
 
 # """

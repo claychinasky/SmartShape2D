@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="StreamTexture2D"
+type="CompressedTexture2D"
 uid="uid://bgpo5t3sufsmt"
-path="res://.godot/imported/LEGACY_shape.png-d5d59b7fd35d74d5d4e9fc3c2c7c7a0a.stex"
+path="res://.godot/imported/LEGACY_shape.png-d5d59b7fd35d74d5d4e9fc3c2c7c7a0a.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://addons/rmsmartshape/assets/LEGACY_shape.png"
-dest_files=["res://.godot/imported/LEGACY_shape.png-d5d59b7fd35d74d5d4e9fc3c2c7c7a0a.stex"]
+dest_files=["res://.godot/imported/LEGACY_shape.png-d5d59b7fd35d74d5d4e9fc3c2c7c7a0a.ctex"]
 
 [params]
 
@@ -29,6 +29,6 @@ roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
-process/HDR_as_SRGB=false
+process/hdr_as_srgb=false
 process/size_limit=0
 detect_3d/compress_to=1

@@ -40,7 +40,7 @@ func remove_child(node: Node):
 	super.remove_child(node)
 
 
-func add_child(node: Node, legible_unique_name: bool = false):
+func add_child(node: Node, legible_unique_name: bool = false, fa = 0):
 	_add_to_meta(node)
 	call_deferred("_update_cached_children")
 	super.add_child(node, legible_unique_name)

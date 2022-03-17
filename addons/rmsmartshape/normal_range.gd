@@ -1,5 +1,5 @@
 @tool
-extends RefCounted
+extends Resource
 class_name SS2D_NormalRange
 #"""
 #This class will determine if the normal of a vector falls within the specifed angle ranges

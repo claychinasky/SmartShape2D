@@ -1,4 +1,4 @@
-extends RefCounted
+extends Reference
 class_name RMS2D_VertexProperties
 
 var texture_idx:int = 0

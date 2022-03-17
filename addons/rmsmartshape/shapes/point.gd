@@ -1,5 +1,5 @@
 @tool
-extends Resource
+extends RefCounted
 class_name SS2D_Point
 
 # export (Vector2) var position: Vector2 setget _set_position
